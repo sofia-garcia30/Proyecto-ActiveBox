@@ -446,3 +446,173 @@ a{
         padding-right: 70px;
     }
 }
+
+@media (max-width: 920px){
+    .titulo01{
+        font-size: 60px;
+    }
+
+    .columnas03{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .imagen13{
+        background-position-x: -350px;
+    }
+
+    .parrafo07{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    a{
+        font-size: 8px;
+        gap: 10px;
+    }
+
+    .columnas01{
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 30px;
+        padding-top: 200px;
+    }
+
+    .columnas04{
+        flex-direction: column;
+    }
+
+    .columna02{
+        padding-top: 70px;
+    }
+
+    .titulo01{
+        width: 90%;
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+    .columnas02{
+        height: 500px;
+    }
+
+    .columnas03{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 40px;
+        height: 1200px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .caja05{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .parrafo06{
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .parrafo07{
+        padding-right: 160px;
+    }
+
+    .columna05{
+        text-align: center;
+    }
+
+    .columnas04{
+        justify-content: space-evenly;
+    }
+
+    .caja07{
+        height: 570px;
+    }
+
+    .parrafo10{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .columna01{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    a{
+        font-size: 10px;
+    }
+
+    .imagen01{
+        width: 50%;
+    }
+
+    .columna02{
+        padding-top: 0px;
+    }
+
+    .imagen10{
+        width: 50%;
+    }
+
+    .titulo02{
+        font-size: 13px;
+    }
+
+    .parrafo02{
+        width: 100%;
+    }
+
+    .columnas01{
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 20px;
+        grid-template-rows: 35% 60% 15%;
+        padding-top: 150px;
+    }
+
+    .titulo01{
+        font-size: 40px;
+    }
+
+    .parrafo01{
+        font-size: 21px;
+        width: 70%;
+    }
+
+    .columnas02{
+        height: 400px;
+    }
+
+    .titulo06{
+        font-size: 12px;
+    }
+
+    .titulo05{
+        font-size: 21px;
+    }
+
+    .columnas03{
+        padding-top: 30px;
+    }
+
+    .imagen13{
+        background-position-x: -380px;
+    }
+
+    .parrafo06{
+        font-size: 25px;
+    }
+
+    .parrafo07{
+        padding-right: 40px;
+    }
+
+    .parrafo11{
+        font-size: 15px;
+    }
+}
